@@ -34,6 +34,13 @@
       <DependentUpon>AppDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuListData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dashboard.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml" />
