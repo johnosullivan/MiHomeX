@@ -11,8 +11,10 @@ namespace MiHome
         // Application entry point
         public App()
         {
+           
             // UI sets the main page to the RootPage ContectView
             MainPage = new RootPage();
+            //MainPage = profilePage;
         }
         // Lifecycle of the application, triggers when the application is opened 
         protected override void OnStart()

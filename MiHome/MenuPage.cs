@@ -137,7 +137,6 @@ namespace MiHome
 
             var tapImage = new Image()
             {
-                Source = "tap.png",
                 HorizontalOptions = LayoutOptions.End,
                 HeightRequest = 12,
             };
