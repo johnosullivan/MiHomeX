@@ -26,7 +26,10 @@ namespace MiHome
             if (str == "coach")
             {
                 Add(new MenuItem() { Title = "Dashboard", Des = "Home", TargetType = typeof(Dashboard) });
-
+                Add(new MenuItem() { Title = "Trends", Des = "Home", TargetType = typeof(Dashboard) });
+                Add(new MenuItem() { Title = "Theshold Alerts", Des = "Home", TargetType = typeof(Dashboard) });
+                Add(new MenuItem() { Title = "Devices", Des = "Home", TargetType = typeof(Dashboard) });
+                Add(new MenuItem() { Title = "My Account", Des = "Home", TargetType = typeof(Dashboard) });
             }
             else if (str == "athlete")
             {
