@@ -14,12 +14,13 @@ namespace MiHome
            
             // UI sets the main page to the RootPage ContectView
             MainPage = new RootPage();
+            Console.WriteLine("Starting MiHome...");
             //MainPage = profilePage;
         }
         // Lifecycle of the application, triggers when the application is opened 
         protected override void OnStart()
         {
-
+           
         }
         // Lifecycle of the application, triggers when the application is closed
         protected override void OnSleep()
@@ -29,7 +30,7 @@ namespace MiHome
         // Lifecycle of the application, triggers when the application is reopened from multitasking
         protected override void OnResume()
         {
-
+            
         }
     }
 }

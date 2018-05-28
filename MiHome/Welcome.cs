@@ -4,16 +4,16 @@ using Xamarin.Forms;
 
 namespace MiHome
 {
-    public class Dashboard : ContentPage
+    public class Welcome : ContentPage
     {
-        public Dashboard()
+        public Welcome()
         {
-            BackgroundColor = Color.LightGray;
-            Title = "Dashboard";
+            BackgroundColor = Color.FromHex("008080");
+
             Content = new StackLayout
             {
                 Children = {
-
+                    
                 }
             };
         }
