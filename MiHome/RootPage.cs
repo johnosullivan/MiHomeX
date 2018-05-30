@@ -20,7 +20,7 @@ namespace MiHome
             Detail = new NavigationPage(new Dashboard()) { BarBackgroundColor = Color.FromHex("008080"), BarTextColor = Color.White };
 
             // Present the login screen
-            //ShowWelcome();
+            ShowWelcome();
         }
 
         public async void ShowWelcome() {

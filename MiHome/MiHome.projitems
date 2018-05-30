@@ -42,6 +42,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)MenuCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dashboard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Welcome.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml" />
