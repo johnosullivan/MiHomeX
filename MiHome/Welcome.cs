@@ -25,6 +25,7 @@ namespace MiHome
             var redContentPage = new ContentPage
             {
                 Padding = padding,
+                BackgroundColor = Color.FromHex("008080"),
                 Content = new StackLayout
                 {
                     Children = {
@@ -46,6 +47,7 @@ namespace MiHome
             var greenContentPage = new ContentPage
             {
                 Padding = padding,
+                BackgroundColor = Color.FromHex("008080"),
                 Content = new StackLayout
                 {
                     Children = {
@@ -67,6 +69,7 @@ namespace MiHome
             var blueContentPage = new ContentPage
             {
                 Padding = padding,
+                BackgroundColor = Color.FromHex("008080"),
                 Content = new StackLayout
                 {
                     Children = {
